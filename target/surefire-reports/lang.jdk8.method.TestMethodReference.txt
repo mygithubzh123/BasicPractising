@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: lang.jdk8.method.TestMethodReference
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+lang.jdk8.method.TestMethodReference.testMax()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at lang.jdk8.method.TestMethodReference.testMax(TestMethodReference.java:31)
+

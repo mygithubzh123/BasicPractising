@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: zip.ori.TestZipStream
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+zip.ori.TestZipStream.testRead()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.Exception
+	at zip.ori.TestZipStream.testRead(TestZipStream.java:49)
+
+zip.ori.TestZipStream.testWrite()  Time elapsed: 0 sec  <<< FAILURE!
+java.io.FileNotFoundException: null/out.zip (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at zip.ori.TestZipStream.testWrite(TestZipStream.java:65)
+

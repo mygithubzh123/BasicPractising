@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: regExp.TestGroup
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+regExp.TestGroup.test5()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: No group 2
+	at java.util.regex.Matcher.group(Matcher.java:538)
+	at regExp.TestGroup.test5(TestGroup.java:93)
+
