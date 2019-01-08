@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 测试CylicBarrier
  *
- * @author liaofeng
+ * @author neo
  * 2019/1/8 12:07 PM
  */
 public class TestCylicBarrier {

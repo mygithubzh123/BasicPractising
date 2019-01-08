@@ -7,7 +7,7 @@ import java.util.concurrent.Semaphore;
 /**
  * 打印机管理员
  *
- * @author liaofeng
+ * @author neo
  * 2019/1/8 11:18 AM
  */
 public class SharedPrinterManager {

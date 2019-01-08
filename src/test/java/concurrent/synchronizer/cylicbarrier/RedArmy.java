@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 红军
  *
- * @author liaofeng
+ * @author neo
  * 2019/1/8 12:05 PM
  */
 public class RedArmy implements Runnable {

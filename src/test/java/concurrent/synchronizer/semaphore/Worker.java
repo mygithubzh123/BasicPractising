@@ -3,7 +3,7 @@ package concurrent.synchronizer.semaphore;
 /**
  * 员工
  *
- * @author liaofeng
+ * @author neo
  * 2019/1/8 11:15 AM
  */
 public class Worker {

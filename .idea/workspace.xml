@@ -5,10 +5,401 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d10332-89c8-4a33-bb0b-83b5a7ecdae5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/cylicbarrier/RedArmy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/cylicbarrier/RedArmy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/cylicbarrier/TestCylicBarrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/cylicbarrier/TestCylicBarrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/PrintTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/PrintTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/SharedPrinterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/SharedPrinterManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/TestSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/TestSemaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-bitset.TestBitSet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-bytebuffer.JVMEndianTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-bytebuffer.TestBuffer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-bytebuffer.TestByteOrder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-bytebuffer.TestDirectMemory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-classloader.TestClass.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-classloader.TestClassloader.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-classloader.TestGetResource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-collection.TestListContains.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-collection.TestRefrence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-collection.binarysearch.TestBinarySearch.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-collection.map.TestHashMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-collection.map.TestTreeMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-collection.map.TestWeakHashMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-collection.queue.TestRemoveObject.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-collection.set.TestHashSet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-collection.set.TestTreeSet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-collection.view.TestSub.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-collection.view.unmodified.TestSingletonCollection.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-collection.view.unmodified.TestUnmodified.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-dateAndTime.TestDate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-genericType.TestOverride.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-genericType.declare.TestDeclare.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-genericType.wildcard.TestExtend.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-genericType.wildcard.TestSuper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.TestArray.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.TestAutoBox.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.charseq.TestCharSeq.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.charseq.TestString.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.charseq.TestStringFormat.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.clone.TestArrayClone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.clone.TestProtected.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.clone.cloneable.TestObjectClone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.clone.testprotected.TestProtected.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.hash.TestHashAndEqual.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.hash.TestHashInRange.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.interfaces.TestSubInterface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk7.TestObejcts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk7.TestTryResource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.actionParameter.TestConsumer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.actionParameter.TestFunction.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.actionParameter.TestPredicate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.actionParameter.TestSupplier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.concurrent.TestConcurrent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.interfacetest.TestDefaultMethod.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.interfacetest.TestInterface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.method.TestMethod.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.method.TestMethodReference.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.reduce.TestReduce.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.stream.TestGroupBy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.stream.TestMatch.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.stream.TestReduce.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.stream.TestSpliterator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.jdk8.stream.TestStream.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lang.main.TestMain.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-math.TestNumber.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-math.TestStrictMath.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-oop.TestOverride.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-reflect.TestFieldAndDeclared.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-regExp.TestGroup.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-regExp.TestReg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-serialization.objIO.TestObjectStream.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-system.TestSystemTools.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-testEnum.TestEnum.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zip.TestZipFileSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zip.ori.TestZipStream.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bitset.TestBitSet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bytebuffer.JVMEndianTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bytebuffer.TestBuffer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bytebuffer.TestByteOrder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bytebuffer.TestDirectMemory.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/classloader.TestClass.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/classloader.TestClassloader.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/classloader.TestGetResource.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collection.TestListContains.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collection.TestRefrence.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collection.binarysearch.TestBinarySearch.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collection.map.TestHashMap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collection.map.TestTreeMap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collection.map.TestWeakHashMap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collection.queue.TestRemoveObject.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collection.set.TestHashSet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collection.set.TestTreeSet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collection.view.TestSub.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collection.view.unmodified.TestSingletonCollection.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collection.view.unmodified.TestUnmodified.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/dateAndTime.TestDate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/genericType.TestOverride.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/genericType.declare.TestDeclare.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/genericType.wildcard.TestExtend.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/genericType.wildcard.TestSuper.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.TestArray.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.TestAutoBox.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.charseq.TestCharSeq.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.charseq.TestString.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.charseq.TestStringFormat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.clone.TestArrayClone.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.clone.TestProtected.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.clone.cloneable.TestObjectClone.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.clone.testprotected.TestProtected.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.hash.TestHashAndEqual.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.hash.TestHashInRange.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.interfaces.TestSubInterface.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk7.TestObejcts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk7.TestTryResource.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.actionParameter.TestConsumer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.actionParameter.TestFunction.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.actionParameter.TestPredicate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.actionParameter.TestSupplier.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.concurrent.TestConcurrent.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.interfacetest.TestDefaultMethod.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.interfacetest.TestInterface.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.method.TestMethod.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.method.TestMethodReference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.reduce.TestReduce.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.stream.TestGroupBy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.stream.TestMatch.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.stream.TestReduce.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.stream.TestSpliterator.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.jdk8.stream.TestStream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lang.main.TestMain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/math.TestNumber.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/math.TestStrictMath.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/oop.TestOverride.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/reflect.TestFieldAndDeclared.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regExp.TestGroup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regExp.TestReg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/serialization.objIO.TestObjectStream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/system.TestSystemTools.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testEnum.TestEnum.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zip.TestZipFileSystem.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zip.ori.TestZipStream.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/annotation/MyAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/annotation/Nnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/annotation/TestAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bitset/SizeOfObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bitset/TestBitSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bytebuffer/JVMEndianTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bytebuffer/TestBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bytebuffer/TestByteOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bytebuffer/TestDirectMemory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cache/Cache$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cache/Cache$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cache/Cache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cache/CacheExpiredHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cache/CacheItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/classloader/InterfaceA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/classloader/TestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/classloader/TestClassloader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/classloader/TestGetResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/collection/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/collection/TestListContains.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/collection/TestRefrence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/collection/binarysearch/TestBinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/collection/map/TestHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/collection/map/TestTreeMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/collection/map/TestWeakHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/collection/queue/TestRemoveObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/collection/set/TestHashSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/collection/set/TestTreeSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/collection/view/TestSub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/collection/view/unmodified/TestSingletonCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/collection/view/unmodified/TestUnmodified.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/TestExchanger$EmptyingLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/TestExchanger$FillingLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/TestExchanger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/atimic/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/atimic/Punch2Go.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/atimic/RunnableA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/atimic/TestAtomicObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/atimic/TestAtomicReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/atimic/TestBasicAtomic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/container/TestConcurrentHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/container/TestPriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/executor/CompleteService/CallableB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/executor/CompleteService/TestCompleteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/executor/FJ/FolderProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/executor/FJ/TestFJPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/executor/ScheduleThreadExecutor/Runnable1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/executor/ScheduleThreadExecutor/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/executor/ScheduleThreadExecutor/TestScheduler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/executor/ThreadPoolExecutor/CallableA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/executor/ThreadPoolExecutor/MyThreadPoolExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/executor/ThreadPoolExecutor/RunnableA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/executor/ThreadPoolExecutor/TestExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/executor/ThreadPoolExecutor/TestExecutorAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/executor/ThreadPoolExecutor/TestExecutorState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/lock/Boxer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/lock/FightTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/lock/TestLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/lock/TestObjectLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/lock/TestReentryLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/lock/TestSynchronized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/synchronizer/MutexLock$Sync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/synchronizer/MutexLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/synchronizer/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/synchronizer/TestAQS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/synchronizer/TestMutexLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/attribute/RunnableA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/attribute/Schronizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/attribute/TestThreadLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/attribute/TestThreadStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/attribute/TestThreadState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/CallableA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/CallableB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/CyclicFutureRunnable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/CyclicFutureRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/DelayedCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/DelayedRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/InterruptableCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/InterruptableRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/MyDefaultThreadFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/RunnableA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/TestCallable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/TestCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/TestFuture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/TestFutureTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/TestRunnable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/TestRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/TestScheduleFuture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/TestThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/TestThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/create/ThreadA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/exception/ErrorUncaughtExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/exception/MyUncaughtExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/exception/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/exception/TestExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/group/TestThreadGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/interact/interrupt/CycleTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/interact/interrupt/TestInterrupt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/interact/interrupt/TestThreadClose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/interact/interrupt/ThreadA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/interact/join/TestJoin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/interact/join/ThreadA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/interact/join/ThreadB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/interact/wait/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/interact/wait/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/interact/wait/TestWait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/interact/yield/TestYield.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/interact/yield/ThreadA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/thread/interact/yield/ThreadB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/vo/EchoTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/vo/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/vo/HandlerTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/vo/LockHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/vo/ObjLockHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/concurrent/vo/SynchronizedHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dateAndTime/TestDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/exception/TestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/exception/TestStackTrace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/exception/senior/TestNewException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/genericType/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/genericType/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/genericType/TestGeneric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/genericType/TestOverride.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/genericType/_3DPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/genericType/declare/TestDeclare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/genericType/vo/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/genericType/vo/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/genericType/vo/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/genericType/wildcard/TestExtend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/genericType/wildcard/TestSuper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/internet/TestInetAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/jmx/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/jmx/Echo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/jmx/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/jmx/MessageEngine$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/jmx/MessageEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/jmx/MessageEngineAgent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/jmx/MessageEngineMXBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/OrderOfInitialization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/TestArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/TestAutoBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/TestInner$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/TestInner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/Window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/charseq/TestCharSeq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/charseq/TestString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/charseq/TestStringFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/clone/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/clone/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/clone/TestArrayClone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/clone/TestProtected.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/clone/cloneable/NewObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/clone/cloneable/NewObject2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/clone/cloneable/NewObject3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/clone/cloneable/TestObjectClone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/clone/testprotected/Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/clone/testprotected/Son.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/clone/testprotected/TestProtected.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/hash/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/hash/TestHashAndEqual.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/hash/TestHashInRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/interfaces/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/interfaces/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/interfaces/TestSubInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk7/TestObejcts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk7/TestTryResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/actionParameter/MyDateTimeKeySupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/actionParameter/MyFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/actionParameter/MyHashSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/actionParameter/MyPredicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/actionParameter/MyStringPrintConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/actionParameter/MyStringPrintFirstCharConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/actionParameter/TestConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/actionParameter/TestFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/actionParameter/TestPredicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/actionParameter/TestSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/concurrent/AddHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/concurrent/TestConcurrent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/interfacetest/AddFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/interfacetest/Beer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/interfacetest/DefaultInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/interfacetest/Drinkable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/interfacetest/FunctionInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/interfacetest/FunctionInterImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/interfacetest/InterfaceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/interfacetest/TestDefaultMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/interfacetest/TestInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/method/TestMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/method/TestMethodReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/reduce/TestReduce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/stream/TestGroupBy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/stream/TestMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/stream/TestReduce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/stream/TestSpliterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/jdk8/stream/TestStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lang/main/TestMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log/TestBasicLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/math/TestNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/math/TestStrictMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/TestFileChannel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/TestSplitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/Worker1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/Worker2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/bio/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/bio/TestBufferStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/bio/TestFileStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/bio/TestPipedStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/bio/TestPrintStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/bio/Writer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/channel/TestFileChannel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/filesystem/TestDetector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/filesystem/TestFileStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/filesystem/TestFileSystemProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/filesystem/TestRootDir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/filesystem/TestWalk$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/filesystem/TestWalk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/filesystem/TestWatchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/path/TestAttribute$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/path/TestAttribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/path/TestLinkPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/path/TestPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/path/TestPathAttribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nio/uri/TestUri.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/oop/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/oop/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/oop/TestOverride.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/operator/TestOffset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reflect/ClassA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reflect/TestFieldAndDeclared.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/regExp/TestGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/regExp/TestReg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/rmi/MyRemoteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/rmi/RemoteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/rmi/TestRmi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runtime/Ping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runtime/PingIP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/serialization/objIO/ObjectWrite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/serialization/objIO/TestObjectStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/system/OSUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/system/PathUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/system/RuntimeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/system/TestInputAndOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/system/TestSystemTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testEnum/CarEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testEnum/SizeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testEnum/TestEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/zip/TestZipFileSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/zip/ori/TestZipStream.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +424,9 @@
     <session id="-1856807993">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="42" />
+          <entry key="project.closed" value="45" />
           <entry key="project.open.time.0" value="14" />
-          <entry key="project.open.time.1" value="12" />
+          <entry key="project.open.time.1" value="14" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -43,7 +434,7 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="43" />
+          <entry key="project.opened" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,31 +445,31 @@
           <entry key="ThreadPoolExecutor" value="1" />
           <entry key="class" value="8" />
           <entry key="iml" value="1" />
-          <entry key="java" value="258" />
-          <entry key="xml" value="11" />
+          <entry key="java" value="269" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="8" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="258" />
+          <entry key="JAVA" value="269" />
           <entry key="UML" value="6" />
-          <entry key="XML" value="11" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="29" />
-          <entry key="java" value="3670" />
-          <entry key="txt" value="15" />
+          <entry key="java" value="4927" />
+          <entry key="txt" value="60" />
           <entry key="xml" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3670" />
-          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="JAVA" value="4927" />
+          <entry key="PLAIN_TEXT" value="89" />
           <entry key="XML" value="53" />
         </counts>
       </usages-collector>
@@ -92,74 +483,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/TestSemaphore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/Printer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BasicPractising.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="120">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/annotation/MyAnnotation.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/Worker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/PrintTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <folding>
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/SharedPrinterManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/concurrent/synchronizer/cylicbarrier/RedArmy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/concurrent/synchronizer/cylicbarrier/TestCylicBarrier.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -230,11 +635,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lang/TestArray.java" />
-        <option value="$PROJECT_DIR$/src/test/java/concurrent/thread/group/TestThreadGroupT.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrent/thread/group/TestThreadGroup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrent/thread/create/TestCallable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrent/thread/create/TestFuture.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/executor/TestScheduler.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/executor/TestExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/executor/CompleteService/TestCompleteService.java" />
@@ -278,6 +678,14 @@
         <option value="$PROJECT_DIR$/src/test/java/collection/map/TestWeakHashMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/collection/queue/TestRemoveObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/collection/set/TestHashSet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/TestSemaphore.java" />
+        <option value="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/cylicbarrier/RedArmy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/cylicbarrier/TestCylicBarrier.java" />
+        <option value="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/Printer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/PrintTask.java" />
+        <option value="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/SharedPrinterManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/TestSemaphore.java" />
+        <option value="$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/Worker.java" />
       </list>
     </option>
   </component>
@@ -345,18 +753,12 @@
             </path>
             <path>
               <item name="BasicPractising" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="BasicPractising" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
             <path>
-              <item name="BasicPractising" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BasicPractising" type="616d4139:PackageViewModuleNode" />
+              <item name="BasicPractising" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -368,6 +770,17 @@
             <path>
               <item name="BasicPractising" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="BasicPractising" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BasicPractising" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BasicPractising" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -388,13 +801,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.343785" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="concurrent.thread.group" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="concurrent.synchronizer.semaphore" />
       <recent name="concurrent.executor.ScheduleThreadExecutor" />
       <recent name="concurrent.executor.ThreadPoolExecutor" />
       <recent name="concurrent.executor.TestThreadPoolExecutor" />
@@ -415,20 +829,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBitSet">
-    <configuration name="TestThreadStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.thread.attribute.TestThreadStack" />
-      <module name="BasicPractising" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrent.thread.attribute.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestCylicBarrier">
     <configuration name="TestBitSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BasicPractising" />
       <extension name="coverage">
@@ -443,68 +844,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.testClassLoader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCylicBarrier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BasicPractising" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classloader.*" />
+          <option name="PATTERN" value="concurrent.synchronizer.cylicbarrier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="classloader" />
-      <option name="MAIN_CLASS_NAME" value="classloader.TestClass" />
-      <option name="METHOD_NAME" value="testClassLoader" />
+      <option name="PACKAGE_NAME" value="concurrent.synchronizer.cylicbarrier" />
+      <option name="MAIN_CLASS_NAME" value="concurrent.synchronizer.cylicbarrier.TestCylicBarrier" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCylicBarrier.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BasicPractising" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrent.synchronizer.cylicbarrier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="concurrent.synchronizer.cylicbarrier" />
+      <option name="MAIN_CLASS_NAME" value="concurrent.synchronizer.cylicbarrier.TestCylicBarrier" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClassloader.getClassloader4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSemaphore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BasicPractising" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classloader.*" />
+          <option name="PATTERN" value="concurrent.synchronizer.semaphore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="classloader" />
-      <option name="MAIN_CLASS_NAME" value="classloader.TestClassloader" />
-      <option name="METHOD_NAME" value="getClassloader4" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="concurrent.synchronizer.semaphore" />
+      <option name="MAIN_CLASS_NAME" value="concurrent.synchronizer.semaphore.TestSemaphore" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThreadStack.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSemaphore.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BasicPractising" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.thread.attribute.*" />
+          <option name="PATTERN" value="concurrent.synchronizer.semaphore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="concurrent.thread.attribute" />
-      <option name="MAIN_CLASS_NAME" value="concurrent.thread.attribute.TestThreadStack" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="concurrent.synchronizer.semaphore" />
+      <option name="MAIN_CLASS_NAME" value="concurrent.synchronizer.semaphore.TestSemaphore" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestClass.testClassLoader" />
-      <item itemvalue="JUnit.TestClassloader.getClassloader4" />
-      <item itemvalue="JUnit.TestThreadStack.test2" />
-      <item itemvalue="Application.TestThreadStack" />
       <item itemvalue="JUnit.TestBitSet" />
+      <item itemvalue="JUnit.TestSemaphore" />
+      <item itemvalue="JUnit.TestSemaphore.test" />
+      <item itemvalue="JUnit.TestCylicBarrier.test1" />
+      <item itemvalue="JUnit.TestCylicBarrier" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCylicBarrier" />
+        <item itemvalue="JUnit.TestCylicBarrier.test1" />
+        <item itemvalue="JUnit.TestSemaphore" />
+        <item itemvalue="JUnit.TestSemaphore.test" />
         <item itemvalue="JUnit.TestBitSet" />
-        <item itemvalue="JUnit.TestThreadStack.test2" />
-        <item itemvalue="Application.TestThreadStack" />
-        <item itemvalue="JUnit.TestClassloader.getClassloader4" />
-        <item itemvalue="JUnit.TestClass.testClassLoader" />
       </list>
     </recent_temporary>
   </component>
@@ -559,7 +972,9 @@
       <workItem from="1545787035485" duration="2984000" />
       <workItem from="1545819738507" duration="555000" />
       <workItem from="1545876817183" duration="6134000" />
-      <workItem from="1545964391322" duration="1924000" />
+      <workItem from="1545964391322" duration="2068000" />
+      <workItem from="1545967842222" duration="3697000" />
+      <workItem from="1546916840624" duration="4491000" />
     </task>
     <task id="LOCAL-00001" summary="vcs">
       <created>1545646279443</created>
@@ -603,43 +1018,57 @@
       <option name="project" value="LOCAL" />
       <updated>1545737869838</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit use idea">
+      <created>1545968107168</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545968107168</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加semaphore,cyclicBarrier的测试案例">
+      <created>1546921083582</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546921083583</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestClass_testClassAndObject - 2018.11.02 at 15h 19m 15s.xml">
-      <configuration name="TestClass.testClassAndObject" configurationId="JUnit" />
+    <history-entry file="TestSemaphore - 2019.01.08 at 11h 33m 42s.xml">
+      <configuration name="TestSemaphore" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass_testTypeVari - 2018.11.02 at 15h 25m 50s.xml">
-      <configuration name="TestClass.testTypeVari" configurationId="JUnit" />
+    <history-entry file="TestSemaphore_test - 2019.01.08 at 11h 34m 29s.xml">
+      <configuration name="TestSemaphore.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass_testTypeVari - 2018.11.02 at 15h 26m 42s.xml">
-      <configuration name="TestClass.testTypeVari" configurationId="JUnit" />
+    <history-entry file="TestSemaphore - 2019.01.08 at 11h 36m 56s.xml">
+      <configuration name="TestSemaphore" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass_testClassAndObject - 2018.11.02 at 15h 27m 40s.xml">
-      <configuration name="TestClass.testClassAndObject" configurationId="JUnit" />
+    <history-entry file="TestSemaphore - 2019.01.08 at 11h 40m 41s.xml">
+      <configuration name="TestSemaphore" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass_testClassAndObject - 2018.11.02 at 15h 28m 12s.xml">
-      <configuration name="TestClass.testClassAndObject" configurationId="JUnit" />
+    <history-entry file="TestSemaphore - 2019.01.08 at 11h 41m 02s.xml">
+      <configuration name="TestSemaphore" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass_testClassLoader - 2018.11.02 at 15h 36m 20s.xml">
-      <configuration name="TestClass.testClassLoader" configurationId="JUnit" />
+    <history-entry file="TestSemaphore_test - 2019.01.08 at 11h 49m 23s.xml">
+      <configuration name="TestSemaphore.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClassloader_getClassloader4 - 2018.11.14 at 11h 02m 49s.xml">
-      <configuration name="TestClassloader.getClassloader4" configurationId="JUnit" />
+    <history-entry file="TestSemaphore_test - 2019.01.08 at 11h 50m 31s.xml">
+      <configuration name="TestSemaphore.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestThreadStack_test2 - 2018.12.19 at 16h 25m 14s.xml">
-      <configuration name="TestThreadStack.test2" configurationId="JUnit" />
+    <history-entry file="TestSemaphore - 2019.01.08 at 11h 53m 33s.xml">
+      <configuration name="TestSemaphore" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestThreadStack_test2 - 2018.12.24 at 17h 44m 09s.xml">
-      <configuration name="TestThreadStack.test2" configurationId="JUnit" />
+    <history-entry file="TestCylicBarrier_test1 - 2019.01.08 at 12h 16m 22s.xml">
+      <configuration name="TestCylicBarrier.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestThreadStack_test2 - 2018.12.24 at 17h 45m 19s.xml">
-      <configuration name="TestThreadStack.test2" configurationId="JUnit" />
+    <history-entry file="TestCylicBarrier - 2019.01.08 at 12h 16m 22s.xml">
+      <configuration name="TestCylicBarrier" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96624000" />
+    <option name="totallyTimeSpent" value="104956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,7 +1082,7 @@
   <component name="ToolWindowManager">
     <frame x="1680" y="23" width="1920" height="1057" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43842888" visible="true" weight="0.21246007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.43842888" visible="true" weight="0.21671991" />
       <window_info id="Structure" order="1" sideWeight="0.5615711" side_tool="true" weight="0.20553781" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -662,15 +1091,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.21125266" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3057325" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40233546" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3450106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32908705" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946752" visible="true" weight="0.30785564" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946752" weight="0.30785564" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32908705" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.31847134" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.31847134" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3280255" />
       <window_info anchor="bottom" id="JSON Formatter" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -733,7 +1162,9 @@
     <MESSAGE value="vcs" />
     <MESSAGE value="name" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="commit use idea" />
+    <MESSAGE value="添加semaphore,cyclicBarrier的测试案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加semaphore,cyclicBarrier的测试案例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -797,76 +1228,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9045">
-          <caret line="676" column="17" selection-start-line="676" selection-start-column="17" selection-end-line="676" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="1597" column="51" selection-start-line="1597" selection-start-column="51" selection-end-line="1597" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18495">
-          <caret line="1308" column="39" selection-start-line="1308" selection-start-column="39" selection-end-line="1308" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/URL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14790">
-          <caret line="1043" column="29" selection-start-line="1043" selection-start-column="29" selection-end-line="1043" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/regExp/TestGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/regExp/TestReg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/AnnotatedElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3060">
-          <caret line="237" column="17" selection-start-line="237" selection-start-column="17" selection-end-line="237" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/GenericDeclaration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1085,6 +1446,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestAddGitFile.java" />
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1119,13 +1481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BasicPractising.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1135,10 +1490,111 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/annotation/MyAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="385" column="15" selection-start-line="385" selection-start-column="15" selection-end-line="385" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="310" column="16" selection-start-line="310" selection-start-column="16" selection-end-line="310" selection-end-column="16" />
+          <folding>
+            <element signature="e#9671#9672#0" expanded="true" />
+            <element signature="e#9749#9750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/concurrent/synchronizer/cylicbarrier/RedArmy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/concurrent/synchronizer/cylicbarrier/TestCylicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/PrintTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/SharedPrinterManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/TestSemaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/concurrent/synchronizer/semaphore/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 打印机
  *
- * @author liaofeng
+ * @author neo
  * 2019/1/8 11:09 AM
  */
 public class Printer {

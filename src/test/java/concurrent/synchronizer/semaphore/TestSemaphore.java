@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 测试信号量
  *
- * @author liaofeng
+ * @author neo
  * 2019/1/8 11:08 AM
  */
 public class TestSemaphore {

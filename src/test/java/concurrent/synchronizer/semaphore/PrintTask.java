@@ -3,7 +3,7 @@ package concurrent.synchronizer.semaphore;
 /**
  * 打印任务
  *
- * @author liaofeng
+ * @author neo
  * 2019/1/8 11:16 AM
  */
 public class PrintTask implements Runnable {

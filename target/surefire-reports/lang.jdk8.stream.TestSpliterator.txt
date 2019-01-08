@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: lang.jdk8.stream.TestSpliterator
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-lang.jdk8.stream.TestSpliterator.testTrysplit()  Time elapsed: 0.001 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at lang.jdk8.stream.TestSpliterator.testTrysplit(TestSpliterator.java:94)
-
