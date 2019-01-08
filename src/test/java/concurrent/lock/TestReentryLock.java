@@ -1,11 +1,3 @@
-/**
-*   (用一句话描述该文件做什么)
-* @Filename TestReentryLock.java
-* @Package concurrent
-* @author neo
-* @since 2018年3月9日 上午10:37:30
-* @Version V1.0
-*/
 package concurrent.lock;
 
 import org.junit.jupiter.api.Test;
@@ -36,13 +28,13 @@ public class TestReentryLock {
 	 * 默认是非公平锁,公平锁会在一个线程释放lock后,寻找等待该锁时间最长的线程
 	 * 
 	 * 获取了锁但是仍旧不能执行任务的情况 用条件对象实现
-	 * 
+	 * i
 	 */
 	@Test
 	public void test()throws Exception{
-		Boxer willams = new Boxer("willams",true);
-		FightTask et = new FightTask(willams,"世界拳王争霸赛");
-		FightTask et2 = new FightTask(willams,"WWD格斗赛");
+		Boxer williams = new Boxer("williams",true);
+		FightTask et = new FightTask(williams,"世界拳王争霸赛");
+		FightTask et2 = new FightTask(williams,"WWD格斗赛");
 		executor.execute(et);
 		executor.execute(et2);
 		latch.await();
@@ -56,10 +48,6 @@ class FightTask implements Runnable{
 
 	Boxer x;
 	
-	/**
-	*   ReentranceTask构造方法
-	* @param x
-	*/
 	public FightTask(Boxer x,String matchName) {
 		super();
 		this.x = x;
@@ -80,10 +68,6 @@ class Boxer {
 	
 	private String name;
 	
-	/**
-	*   Boxer构造方法
-	* @param isUnruly
-	*/
 	public Boxer(String name,boolean isUnruly) {
 		super();
 		this.isUnruly = isUnruly;
