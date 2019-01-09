@@ -6,22 +6,22 @@ import org.junit.jupiter.api.Test;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class TestThreadLock {
+class TestThreadLock {
 	
 	ExecutorService executor;
 	
 	@BeforeEach
-	public void setup(){
+	void setup(){
 		executor = Executors.newFixedThreadPool(5);
 	}
 	
 	@Test
-	public void test(){
+	void test(){
 		Schronizer s = new Schronizer();
 		RunnableA ea = new RunnableA(s);
 		executor.execute(ea);
 		while(true){
-			System.out.println(ea.helsLock());
+			System.out.println(Thread.currentThread()+":"+ea.heldsLock());
 			try {
 				Thread.sleep(1_000);
 			} catch (InterruptedException e) {
@@ -42,12 +42,12 @@ class RunnableA implements Runnable{
 	@Override
 	public void run() {
 		synchronized(s){
-			System.out.println(Thread.holdsLock(s));
+			System.out.println(Thread.currentThread()+":"+Thread.holdsLock(s));
 			s.sleeps();
 		}
 	}
 	
-	public boolean helsLock(){
+	public boolean heldsLock(){
 		return Thread.holdsLock(s);
 	}
 }

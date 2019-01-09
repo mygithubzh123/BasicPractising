@@ -4,7 +4,7 @@ import java.util.concurrent.Exchanger;
 
 public class TestExchanger {
 	
-		   Exchanger<StringBuffer> exchanger = new Exchanger<StringBuffer>();
+		   Exchanger<StringBuffer> exchanger = new Exchanger<>();
 
 		   class FillingLoop implements Runnable {
 			   StringBuffer currentBuffer = new StringBuffer("abc");

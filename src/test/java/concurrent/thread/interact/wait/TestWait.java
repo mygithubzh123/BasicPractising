@@ -1,11 +1,3 @@
-/**
-*   (用一句话描述该文件做什么)
-* @Filename TestWait.java
-* @Package concurrent.case1
-* @author neo
-* @since 2018年3月9日 上午11:46:04
-* @Version V1.0
-*/
 package concurrent.thread.interact.wait;
 
 import org.junit.jupiter.api.Test;

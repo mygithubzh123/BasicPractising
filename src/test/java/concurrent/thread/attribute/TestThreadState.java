@@ -1,11 +1,3 @@
-/**
-*   (用一句话描述该文件做什么)
-* @Filename TestThreadState.java
-* @Package concurrent.thread
-* @author neo
-* @since 2018年3月13日 上午9:40:42
-* @Version V1.0
-*/
 package concurrent.thread.attribute;
 
 import org.junit.jupiter.api.Test;

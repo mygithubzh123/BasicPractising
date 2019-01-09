@@ -22,14 +22,10 @@ public class TestThreadStack {
 	@Test
 	public void test2(){
 		Thread.getAllStackTraces().forEach((key, value) -> {
-			System.out.println("==================");
+			System.out.println("=================================================");
 			System.out.println(key);
-			System.out.println(Arrays.toString(value));
+			Arrays.stream(value).forEach(e -> System.out.println("\t"+e));
 		});
 	}
 
-	//1545293640010973
-	public static void main(String[] args) {
-		System.out.println(System.currentTimeMillis());
-	}
 }

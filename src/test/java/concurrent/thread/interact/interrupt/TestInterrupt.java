@@ -25,7 +25,7 @@ public class TestInterrupt {
 }
 class ThreadA extends Thread{
 
-	boolean isRunning = true;
+	private boolean isRunning = true;
 	
 	@Override
 	public void run() {

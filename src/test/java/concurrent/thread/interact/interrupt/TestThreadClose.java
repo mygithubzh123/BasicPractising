@@ -1,11 +1,3 @@
-/**
-*   (用一句话描述该文件做什么)
-* @Filename TestThreadClose.java
-* @Package concurrent.thread
-* @author neo
-* @since 2018年3月13日 上午9:46:52
-* @Version V1.0
-*/
 package concurrent.thread.interact.interrupt;
 
 import org.junit.jupiter.api.Test;
@@ -41,8 +33,8 @@ class CycleTask implements Runnable{
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				e.printStackTrace();
-				//isRunning = false;
+				//e.printStackTrace();
+				isRunning = false;
 			}
 		}
 		System.out.println("CycleTask is over");

@@ -1,11 +1,3 @@
-/**
-*   (用一句话描述该文件做什么)
-* @Filename TestExceptionHandler.java
-* @Package concurrent.thread
-* @author neo
-* @since 2018年3月13日 上午10:19:32
-* @Version V1.0
-*/
 package concurrent.thread.exception;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -15,8 +7,7 @@ import sun.reflect.Reflection;
 import java.lang.Thread.UncaughtExceptionHandler;
 
 /**
- *   (这里用一句话描述这个类的作用)
- *    TestExceptionHandler
+ * TestExceptionHandler
  * @author neo
  * @since 2018年3月13日 上午10:19:32
  */
@@ -98,7 +89,7 @@ class ErrorUncaughtExceptionHandler implements UncaughtExceptionHandler{
 	public void uncaughtException(Thread t, Throwable e) {
 		Class<?> clazz = Reflection.getCallerClass();
 		if(clazz != null){
-			System.out.println(clazz);
+			System.out.println("caller:"+clazz);
 		}
 		throw new RuntimeException("i am a runtime exception");
 	}

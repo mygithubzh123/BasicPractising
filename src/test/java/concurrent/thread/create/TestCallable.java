@@ -1,11 +1,3 @@
-/**
-*   (用一句话描述该文件做什么)
-* @Filename TestCallable.java
-* @Package concurrent.callable
-* @author neo
-* @since 2018年3月13日 下午4:01:37
-* @Version V1.0
-*/
 package concurrent.thread.create;
 
 import org.junit.jupiter.api.Test;
@@ -16,8 +8,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
- *   (这里用一句话描述这个类的作用)
- *    TestCallable
+ * TestCallable
  * @author neo
  * @since 2018年3月13日 下午4:01:37
  */
@@ -31,7 +22,7 @@ public class TestCallable {
 		//匿名内部类
 		Callable<String> cc = new Callable<String>(){
 			@Override
-			public String call() throws Exception {
+			public String call() {
 				return "success";
 			}
 		};
