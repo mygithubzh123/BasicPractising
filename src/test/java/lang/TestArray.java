@@ -1,11 +1,3 @@
-/**
-*   (用一句话描述该文件做什么)
-* @Filename TestArray.java
-* @Package array
-* @author neo
-* @since 2018年2月26日 下午4:09:12
-* @Version V1.0
-*/
 package lang;
 
 import org.junit.jupiter.api.Test;
@@ -29,5 +21,6 @@ public class TestArray {
 		System.out.println(Arrays.equals(a, b));
 		System.out.println(Arrays.equals(a, c));
 		System.out.println(Arrays.equals(a, d));
+
 	}
 }

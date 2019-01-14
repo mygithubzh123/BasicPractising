@@ -1,11 +1,3 @@
-/**
-*   (用一句话描述该文件做什么)
-* @Filename TestTreeSet.java
-* @Package collection.set
-* @author neo
-* @since 2018年3月9日 上午9:27:50
-* @Version V1.0
-*/
 package collection.set;
 
 import org.junit.jupiter.api.Test;
@@ -13,8 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.TreeSet;
 
 /**
- *   (这里用一句话描述这个类的作用)
- *    TestTreeSet
+ * TestTreeSet
  * @author neo
  * @since 2018年3月9日 上午9:27:50
  */
@@ -25,7 +16,7 @@ public class TestTreeSet {
 	 * 利用treeMap的key有序特性，实现set元素的有序
 	 */
 	@Test
-	public void testNew()throws Exception{
+	public void testNew(){
 		TreeSet<String> set = new TreeSet<>();
 		set.add("1");
 		set.add("0");

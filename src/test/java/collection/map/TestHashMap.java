@@ -6,11 +6,11 @@ import org.junit.jupiter.api.Test;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TestHashMap {
+class TestHashMap {
 
-	static final int MAXIMUM_CAPACITY = 1 << 30;
+	private static final int MAXIMUM_CAPACITY = 1 << 30;
 	
-    static final int tableSizeFor(int cap) {
+    private static int tableSizeFor(int cap) {
         int n = cap - 1;
         n |= n >>> 1;
         n |= n >>> 2;
@@ -21,14 +21,14 @@ public class TestHashMap {
     }
     
     @Test
-    public void testSize()throws Exception{
+	void testSize() {
     	for(int i = 0;i<100000;i+=10){
     		System.out.println("cap为"+i+"的HashMap 的内部的桶大小为"+tableSizeFor(i));	
     	}
     }
     
     @Test
-    public void testNew()throws Exception{
+	void testNew() {
     	Map<String,Object> map = new HashMap<>();
     	map.put("abc", new Object());
     }
@@ -55,10 +55,10 @@ public class TestHashMap {
      * 
      */
     @Test
-    public void testHashCrash()throws Exception{
+	void testHashCrash(){
     	Map<Integer,Object> map = new HashMap<>();
     	map.put(1, new Object());
     	map.put(17, new Object());
-    	map.get(17);
+		System.out.println(map.get(17));
     }
 }
