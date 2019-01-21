@@ -10,7 +10,7 @@ import java.util.Spliterator;
 /**
  * 测试spliterator
  *
- * @author liaofeng
+ * @author neo
  * 2019/1/11 11:49 AM
  */
 public class TestSpliterator {

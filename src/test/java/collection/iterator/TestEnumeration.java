@@ -10,7 +10,7 @@ import java.util.Enumeration;
 /**
  * 测试枚举
  *
- * @author liaofeng
+ * @author neo
  * 2019/1/11 11:39 AM
  */
 public class TestEnumeration {

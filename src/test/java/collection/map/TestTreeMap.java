@@ -31,4 +31,21 @@ public class TestTreeMap {
 		System.out.println(map.lastKey());
 	}
 
+	@Test
+	void testRotate(){
+		TreeMap<Integer,Object> map = new TreeMap<>();
+		map.put(1, new Object());
+		map.put(2, new Object());
+		map.put(5, new Object());
+		map.put(7, new Object());
+		map.put(8, new Object());
+		map.put(11, new Object());
+		map.put(14, new Object());
+		map.put(15,new Object());
+
+		map.put(4, new Object());
+
+
+	}
+
 }

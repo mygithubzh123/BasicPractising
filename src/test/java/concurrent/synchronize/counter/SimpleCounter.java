@@ -3,7 +3,7 @@ package concurrent.synchronize.counter;
 /**
  * 简单计数器
  *
- * @author liaofeng
+ * @author neo
  * 2019/1/8 5:22 PM
  */
 public class SimpleCounter extends AbstractCounter {

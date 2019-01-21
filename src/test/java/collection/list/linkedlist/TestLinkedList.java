@@ -9,7 +9,7 @@ import java.util.LinkedList;
 /**
  * 测试LinkedList
  *
- * @author liaofeng
+ * @author neo
  * 2019/1/11 10:53 AM
  */
 public class TestLinkedList {

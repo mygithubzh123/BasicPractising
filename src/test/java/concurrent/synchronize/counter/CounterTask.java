@@ -3,7 +3,7 @@ package concurrent.synchronize.counter;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author liaofeng
+ * @author neo
  * 2019/1/8 5:44 PM
  */
 public class CounterTask implements Runnable{

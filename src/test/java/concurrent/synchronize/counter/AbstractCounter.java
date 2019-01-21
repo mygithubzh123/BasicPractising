@@ -3,7 +3,7 @@ package concurrent.synchronize.counter;
 /**
  * 公共的计数器
  *
- * @author liaofeng
+ * @author neo
  * 2019/1/8 5:28 PM
  */
 public abstract class AbstractCounter implements Counter {
