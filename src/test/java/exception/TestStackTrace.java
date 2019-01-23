@@ -1,11 +1,3 @@
-/**
-  *   (用一句话描述该文件做什么)
-* @Filename TestStackTrace.java
-* @Package exception
-* @author neo
-* @since 2018年3月8日 上午9:22:02
-* @Version V1.0
-*/
 package exception;
 
 import org.junit.jupiter.api.Test;
@@ -28,17 +20,23 @@ public class TestStackTrace {
 		} catch(Exception e){
 			e.printStackTrace();
 			StackTraceElement[] a = e.getStackTrace();
-			Arrays.asList(a).stream().forEach(f -> printStack(f));
+			Arrays.asList(a).forEach(TestStackTrace::printStack);
 		}
 	}
 	
 	@Test
-	public void testAllStack()throws Exception{
+	void testAllStack(){
 		Map<Thread,StackTraceElement[]> threadTrace = Thread.getAllStackTraces();
-		Arrays.asList(threadTrace.get(Thread.currentThread())).stream().forEach(f -> printStack(f));
+		Arrays.stream(threadTrace.get(Thread.currentThread())).forEach(TestStackTrace::printStack);
 	}
 	
-	public static void printStack(StackTraceElement f){
+	private static void printStack(StackTraceElement f){
 		System.out.println("\t"+"at "+f.getClassName()+"."+f.getMethodName()+"("+f.getFileName()+":"+f.getLineNumber()+")");	
+	}
+
+	@Test
+	void testStackElement() {
+		StackTraceElement stackTraceElement = new StackTraceElement("", "", null, Integer.MIN_VALUE);
+		System.out.println(stackTraceElement);
 	}
 }

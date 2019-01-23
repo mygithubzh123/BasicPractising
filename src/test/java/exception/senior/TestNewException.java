@@ -1,11 +1,3 @@
-/**
-*   (用一句话描述该文件做什么)
-* @Filename TestNewException.java
-* @Package exception.senior
-* @author neo
-* @since 2018年3月7日 下午5:07:05
-* @Version V1.0
-*/
 package exception.senior;
 
 import org.junit.jupiter.api.Test;
@@ -13,8 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.sql.SQLException;
 
 /**
- *   (这里用一句话描述这个类的作用)
- *    TestNewException
+ * 异常信息的传递
  * @author neo
  * @since 2018年3月7日 下午5:07:05
  */

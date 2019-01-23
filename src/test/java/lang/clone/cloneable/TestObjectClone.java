@@ -1,11 +1,3 @@
-/**
-*   (用一句话描述该文件做什么)
-* @Filename TestObjectClone.java
-* @Package lang.clone
-* @author neo
-* @since 2018年2月28日 上午9:49:07
-* @Version V1.0
-*/
 package lang.clone.cloneable;
 
 import org.junit.jupiter.api.Test;
