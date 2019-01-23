@@ -1,6 +1,5 @@
 package exception;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -19,6 +18,7 @@ public class TestSuppressedThrowable {
 		try {
 			testTraditionalTryCatchWithExceptionOnFinally();
 		} catch (IOException e) {
+			e.printStackTrace();
 			Throwable[] suppressed = e.getSuppressed();
 			for (Throwable t : suppressed) {
 				// Check T's type and decide on action to be taken
