@@ -1,4 +1,4 @@
-package runtime;
+package lang.runtime;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

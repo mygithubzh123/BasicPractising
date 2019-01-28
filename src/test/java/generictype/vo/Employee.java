@@ -1,12 +1,12 @@
 /**
 *   (用一句话描述该文件做什么)
 * @Filename Employee.java
-* @Package genericType.vo
+* @Package generictype.vo
 * @author neo
 * @since 2018年3月8日 上午10:38:56
 * @Version V1.0
 */
-package genericType.vo;
+package generictype.vo;
 
 /**
  *   (这里用一句话描述这个类的作用)

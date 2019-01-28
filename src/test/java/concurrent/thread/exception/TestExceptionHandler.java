@@ -91,6 +91,6 @@ class ErrorUncaughtExceptionHandler implements UncaughtExceptionHandler{
 		if(clazz != null){
 			System.out.println("caller:"+clazz);
 		}
-		throw new RuntimeException("i am a runtime exception");
+		throw new RuntimeException("i am a lang.runtime exception");
 	}
 }

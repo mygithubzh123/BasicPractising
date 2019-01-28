@@ -15,6 +15,8 @@ public class TestObjects {
 	private int[] a = {1,2,3,4,5};
 	private int[] d = {1,2,3,4,5};
 
+	private int type = 1;
+
 	@Test
 	void test(){
 		System.out.println(Objects.equals(a, d));
@@ -28,7 +30,7 @@ public class TestObjects {
 		Objects.requireNonNull(object," is null");
 		Objects.requireNonNull(object,()-> " is null at"+System.currentTimeMillis());
 
-		object = null;
+		object = type == 1 ? null :new Object();
 		System.out.println(Objects.isNull(object));
 		System.out.println(Objects.nonNull(object));
 

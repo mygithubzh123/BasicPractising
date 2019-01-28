@@ -46,7 +46,6 @@ public class TestParameterizedTest {
 
 	/**
 	 * 作为source的方法必须返回iterator，stream,或者数组
-	 * @return
 	 */
 	private static Stream<String> getStringStream(){
 		return Stream.of("a","b");

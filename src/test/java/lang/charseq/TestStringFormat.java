@@ -1,11 +1,3 @@
-/**
-*   (用一句话描述该文件做什么)
-* @Filename TestStringFormat.java
-* @Package charseq
-* @author neo
-* @since 2018年2月26日 上午11:54:20
-* @Version V1.0
-*/
 package lang.charseq;
 
 import org.junit.jupiter.api.Test;
